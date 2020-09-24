@@ -1,13 +1,9 @@
 module.exports = {
   title: ' 英语笔记 ',
-  description: '  阅读和写作',
+  description: ' 阅读和写作',
   base: '/English/',
 //  dest: 'public',
   plugins: [
-    ['autobar'],
-    [
-      'vuepress-plugin-mermaidjs'
-    ]
   ],
   themeConfig: {
     nav: [
@@ -25,6 +21,9 @@ module.exports = {
       }
     ],
     sidebar: [
+      '/',
+      '/1-精选美文120',
+      ['/page-b', 'Explicit link text']
     ]
   }
 }
