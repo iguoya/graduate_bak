@@ -7,27 +7,7 @@ module.exports = {
     ['autobar'],
     [
       'vuepress-plugin-mermaidjs'
-    ],
-    [
-      'vuepress-plugin-medium-zoom',
-      {
-        selector: '.my-wrapper .my-img',
-        delay: 1000,
-        options: {
-          margin: 24,
-          background: '#BADA55',
-          scrollOffset: 0,
-        },
-      },
-    ],
-    [
-      'vuepress-plugin-typescript',
-      {
-        tsLoaderOptions: {
-          // ts-loader 的所有配置项
-        },
-      },
-    ],
+    ]
   ],
   themeConfig: {
     nav: [
