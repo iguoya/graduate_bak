@@ -1,9 +1,42 @@
 module.exports = {
-  title: ' 英语笔记 ',
-  description: ' 阅读和写作',
+  title: ' 设计模式',
+  description: ' 李建忠---可复用的软件设计',
   base: '/English/',
 //  dest: 'public',
   plugins: [
+    ['autobar'],
+    [
+      'vuepress-plugin-mathjax',
+      {
+        target: 'svg',
+        macros: {
+          '*': '\\times',
+        },
+      },
+    ],
+    [
+      'vuepress-plugin-mermaidjs'
+    ],
+    [
+      'vuepress-plugin-medium-zoom',
+      {
+        selector: '.my-wrapper .my-img',
+        delay: 1000,
+        options: {
+          margin: 24,
+          background: '#BADA55',
+          scrollOffset: 0,
+        },
+      },
+    ],
+    [
+      'vuepress-plugin-typescript',
+      {
+        tsLoaderOptions: {
+          // ts-loader 的所有配置项
+        },
+      },
+    ],
   ],
   themeConfig: {
     nav: [
@@ -21,9 +54,7 @@ module.exports = {
       }
     ],
     sidebar: [
-      '/',
-      '/1-精选美文120',
-      ['/page-b', 'Explicit link text']
+
     ]
   }
 }
