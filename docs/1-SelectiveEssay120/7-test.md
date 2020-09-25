@@ -15,7 +15,7 @@ afasdfasdf
 ---
 
 
-- 本页面的作者：{{ $page.git.author }}
+- 本页面的作者：
 - {{$page.git.created}}
 
 - {{$page.git.updated}}
