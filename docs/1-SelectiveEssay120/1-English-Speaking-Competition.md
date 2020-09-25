@@ -6,7 +6,7 @@ The English Speaking Competition will be held in next month.Those who like to pa
 
 
 
-There you can also get detailed information and requirements about the competition.
+**There you can also get detailed information and requirements about the competition.**
 
 
 

@@ -4,13 +4,13 @@
 
 Video games are very popular with students. Playing video games is a good way to relax.
 
-It brings much pleasure and fun to the players and trains them to think quickly. It makes students' life interesting.They are not longly any more
+**It brings much pleasure and fun to the players** and trains them to think quickly. It makes students' life interesting.They are not longly any more
 
 
 
 But some students spend so much time playing the games so that they do bad at school.
 
-Some students even become shortsighted. We should play video games to entertain us. We shouldn't let them harm us
+**Some students even become shortsighted. We should play video games to entertain us. We shouldn't let them harm us**
 
 
 
@@ -18,7 +18,7 @@ Some students even become shortsighted. We should play video games to entertain 
 
 ---
 
-Playing computer games has been one of the popular activities among students.
+**Playing computer games has been one of the popular activities among students.**
 
 
 
