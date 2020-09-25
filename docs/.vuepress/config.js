@@ -9,7 +9,6 @@ module.exports = {
       'vuepress-plugin-git-log',
       {
         additionalArgs: '--no-merge',
-        onlyFirstAndLastCommit: true,
       },
     ],
   ],
