@@ -6,10 +6,12 @@ module.exports = {
   plugins: [
     ['autobar'],
     [
-      'vuepress-plugin-git-log',
-      {
-        additionalArgs: '--no-merge',
+    'git-log': {
+      additionalProps: {
+        subject: '%s',
+        authorEmail: '%ae',
       },
+    },
     ],
   ],
   themeConfig: {
