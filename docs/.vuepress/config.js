@@ -5,6 +5,13 @@ module.exports = {
 //  dest: 'public',
   plugins: [
     ['autobar'],
+    [
+      'vuepress-plugin-git-log',
+      {
+        additionalArgs: '--no-merge',
+        onlyFirstAndLastCommit: true,
+      },
+    ],
   ],
   themeConfig: {
     nav: [

@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "vuepress": "^1.5.4",
-    "vuepress-plugin-autobar": "boboidream/vuepress-bar"
+    "vuepress-plugin-autobar": "boboidream/vuepress-bar",
+    "vuepress-plugin-git-log": "^1.0.1"
   }
 }
